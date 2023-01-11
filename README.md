@@ -41,3 +41,6 @@ Run command: (Publish Attack Transaction)
 ```
 go run contract-write.go
 ```
+
+## References
+- https://goethereumbook.org/en/
