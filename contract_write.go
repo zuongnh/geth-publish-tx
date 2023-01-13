@@ -15,7 +15,7 @@ import (
 	store "github.com/zuongnh/publish-tx/contracts" // for demo
 )
 
-func main() {
+func contract_write() {
 	// -------------- SET UP --------------
 	client, err := ethclient.Dial("wss://bsc-testnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5")
 	if err != nil {
